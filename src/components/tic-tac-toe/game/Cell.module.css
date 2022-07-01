@@ -1,0 +1,17 @@
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: calc(100% / 3);
+  cursor: pointer;
+}
+
+.cell.o-mark.filled {
+  background-color: var(--color6);
+  box-shadow: 0px 5px var(--color7);
+}
+
+.cell.x-mark.filled {
+  background-color: var(--color4);
+  box-shadow: 0px 5px var(--color5);
+}

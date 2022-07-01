@@ -1,0 +1,23 @@
+.home {
+  user-select: none;
+}
+
+.home > button {
+  width: 100%;
+}
+
+.logo {
+  margin-bottom: 15px;
+}
+
+.pick-mark-container {
+  color: var(--color2);
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.pick-mark-container p {
+  font-size: 12px;
+  opacity: 0.7;
+}

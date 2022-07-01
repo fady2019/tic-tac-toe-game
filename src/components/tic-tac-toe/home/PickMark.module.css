@@ -1,0 +1,25 @@
+.pick-mark-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+  padding: 8px;
+  background-color: var(--color1);
+  border-radius: 6px;
+  margin: 12px 0;
+}
+
+.pick-mark-container button {
+  width: 50%;
+  border: none;
+  outline: none;
+  padding: 8px 8px 6px 8px;
+  border-radius: 6px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.pick-mark-container button.active {
+  background-color: var(--color2);
+  transition: background-color 0.2s ease-in-out;
+}

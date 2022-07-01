@@ -1,0 +1,58 @@
+.game-modal {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 50px 20px 30px;
+  background-color: var(--color);
+  transform: translateY(-50%);
+  z-index: 1000;
+}
+
+.game-modal-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
+}
+
+.player-id {
+  text-transform: uppercase;
+  color: var(--color2);
+}
+
+.player-mark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+.player-mark.no-mark {
+  color: var(--color2);
+}
+
+.player-mark.x-mark {
+  color: var(--color4);
+}
+
+.player-mark.o-mark {
+  color: var(--color6);
+}
+
+.game-modal-actions {
+  display: flex;
+  gap: 10px;
+}
+
+@media screen and (max-width: 450px) {
+  .player-mark h2 {
+    font-size: 1.1em;
+  }
+}

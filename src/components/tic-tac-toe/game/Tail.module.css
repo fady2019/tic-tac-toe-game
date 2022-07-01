@@ -1,0 +1,49 @@
+.game-stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.game-stats .stat {
+  flex-basis: calc(100% / 3);
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 20px;
+  border-radius: 4px;
+  color: var(--color0);
+}
+
+.game-stats .stat .player-id {
+  font-size: 14px;
+}
+
+.game-stats .stat .player-score {
+  font-weight: bold;
+}
+
+.game-stats .stat.o-player {
+  background-color: var(--color6);
+}
+
+.game-stats .stat.x-player {
+  background-color: var(--color4);
+}
+
+.game-stats .stat.ties {
+  background-color: var(--color2);
+}
+
+@media screen and (max-width: 450px) {
+  .game-stats .stat {
+    padding: 8px 15px;
+  }
+
+  .game-stats .stat .player-id {
+    font-size: 11px;
+  }
+}

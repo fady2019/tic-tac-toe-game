@@ -1,0 +1,9 @@
+.logo {
+  display: flex;
+  gap: 4px;
+  padding: 10px;
+}
+
+.logo.center {
+  justify-content: center;
+}

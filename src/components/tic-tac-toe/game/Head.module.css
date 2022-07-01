@@ -1,0 +1,25 @@
+.game-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+
+.turn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  background-color: var(--color);
+  border-radius: 4px;
+  box-shadow: 0px 4px var(--color0);
+  padding: 8px 20px;
+  color: var(--color2);
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.game-head button {
+  padding: 6px 12px 4px;
+  width: max-content;
+}

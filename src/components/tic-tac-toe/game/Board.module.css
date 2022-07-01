@@ -1,0 +1,10 @@
+.board {
+  margin: 20px 0;
+}
+
+.row {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}

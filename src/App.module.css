@@ -1,0 +1,24 @@
+.App {
+  position: relative;
+  height: 100%;
+  background-color: var(--page-bg);
+}
+
+.main {
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  height: calc(100% - 60px);
+  padding-top: 50px;
+}
+
+.main::-webkit-scrollbar {
+  display: none;
+}
+
+.footer {
+  height: 60px;
+  color: #fff;
+  box-shadow: 0px 5px 10px var(--color0) inset;
+  letter-spacing: 1.5px;
+}
