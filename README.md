@@ -6,4 +6,4 @@
 
 ### - alpha-beta pruning algorithm is used to get the best move for the PC
   
-### Live Preview: 
+### Live Preview: https://dra-tic-tac-toe-game.netlify.app/
